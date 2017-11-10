@@ -20,6 +20,8 @@
     <types>
         <members>ARCobjA1__c.ARCobjA1_desc__c</members>
         <members>AR_AccObj1__c.AccObj1Remarks__c</members>
+        <members>ArObjB1__c.ArObjB1Desc__c</members>
+        <members>ArObjB1__c.ArObjB1Phone__c</members>
         <members>Computer__c.ComputerManufacturar__c</members>
         <members>Computer__c.ComputerPrice__c</members>
         <members>MyObj1__c.MyObj1Id__c</members>
@@ -34,7 +36,9 @@
         <name>CustomLabel</name>
     </types>
     <types>
+        <members>ARCobjA1__c</members>
         <members>AR_AccObj1__c</members>
+        <members>ArObjB1__c</members>
         <members>Computer__c</members>
         <members>MyObj1__c</members>
         <name>CustomObject</name>
@@ -46,6 +50,10 @@
     <types>
         <members>Computer__c</members>
         <name>CustomTab</name>
+    </types>
+    <types>
+        <members>ARGlobalPicklist1</members>
+        <name>GlobalPicklist</name>
     </types>
     <types>
         <members>Computer__c-Computer Layout</members>
