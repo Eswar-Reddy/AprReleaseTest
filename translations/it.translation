@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customLabels>
+        <label><!-- ARCutLabel1 --></label>
+        <name>ARCutLabel1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AR CustomlabelLabel1 --></label>
+        <name>AR_CustomlabelLabel1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SAR CustomlabelLabel1 --></label>
+        <name>AR_CustomlabelLabel2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AR-CutomLabel1 --></label>
+        <name>AR_CutomLabel1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CLSMar10 --></label>
+        <name>CLSMar10</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CLS test2 --></label>
+        <name>CLS_test2</name>
+    </customLabels>
+    <quickActions>
+        <label><!-- LogACall --></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewAccount --></label>
+        <name>NewAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewCase --></label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewContact --></label>
+        <name>NewContact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewEvent --></label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewGroup --></label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewLead --></label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewNote --></label>
+        <name>NewNote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewOpportunity --></label>
+        <name>NewOpportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewTask --></label>
+        <name>NewTask</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+</Translations>
