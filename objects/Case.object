@@ -57,8 +57,7 @@
         <type>Default</type>
     </actionOverrides>
     <businessProcesses>
-        <fullName>CaseSupportProcessTest1</fullName>
-        <description>Testing purpose created a Support Process</description>
+        <fullName>SupportProcess</fullName>
         <isActive>true</isActive>
         <values>
             <fullName>Closed</fullName>
@@ -73,8 +72,20 @@
             <default>true</default>
         </values>
         <values>
-            <fullName>SupportTest</fullName>
+            <fullName>Working</fullName>
             <default>false</default>
+        </values>
+    </businessProcesses>
+    <businessProcesses>
+        <fullName>SupportProcessNew</fullName>
+        <isActive>true</isActive>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>true</default>
         </values>
         <values>
             <fullName>Working</fullName>
@@ -98,11 +109,17 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>AutorabitExtId__c</fullName>
-        <description>External Id created by AutoRABIT</description>
-        <externalId>true</externalId>
-        <label>AutorabitExtId__c</label>
-        <length>18</length>
+        <fullName>BusinessHoursId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CaseCategoryFiled__c</fullName>
+        <externalId>false</externalId>
+        <label>CaseCategoryFiled1</label>
+        <length>25</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -111,11 +128,54 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>BusinessHoursId</fullName>
+        <fullName>CasePicklist2__c</fullName>
+        <externalId>false</externalId>
+        <label>CasePicklist2</label>
+        <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
-        <type>Lookup</type>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>aa</fullName>
+                    <default>false</default>
+                    <label>aa</label>
+                </value>
+                <value>
+                    <fullName>bb</fullName>
+                    <default>false</default>
+                    <label>bb</label>
+                </value>
+                <value>
+                    <fullName>cc</fullName>
+                    <default>false</default>
+                    <label>cc</label>
+                </value>
+                <value>
+                    <fullName>dd</fullName>
+                    <default>false</default>
+                    <label>dd</label>
+                </value>
+                <value>
+                    <fullName>ee</fullName>
+                    <default>false</default>
+                    <label>ee</label>
+                </value>
+                <value>
+                    <fullName>ff</fullName>
+                    <default>false</default>
+                    <label>ff</label>
+                </value>
+                <value>
+                    <fullName>gg</fullName>
+                    <default>false</default>
+                    <label>gg</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>ClosedDate</fullName>
@@ -198,6 +258,86 @@
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Picklist1__c</fullName>
+        <externalId>false</externalId>
+        <label>Picklist1</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>CasePicklist2__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Test0</fullName>
+                    <default>false</default>
+                    <label>Test0</label>
+                </value>
+                <value>
+                    <fullName>Test1</fullName>
+                    <default>false</default>
+                    <label>Test1</label>
+                </value>
+                <value>
+                    <fullName>test3</fullName>
+                    <default>false</default>
+                    <label>test3</label>
+                </value>
+                <value>
+                    <fullName>test4</fullName>
+                    <default>false</default>
+                    <label>test4</label>
+                </value>
+                <value>
+                    <fullName>test5</fullName>
+                    <default>false</default>
+                    <label>test5</label>
+                </value>
+                <value>
+                    <fullName>test6</fullName>
+                    <default>false</default>
+                    <label>test6</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>aa</controllingFieldValue>
+                <controllingFieldValue>cc</controllingFieldValue>
+                <controllingFieldValue>dd</controllingFieldValue>
+                <controllingFieldValue>ee</controllingFieldValue>
+                <controllingFieldValue>ff</controllingFieldValue>
+                <valueName>Test0</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>aa</controllingFieldValue>
+                <controllingFieldValue>cc</controllingFieldValue>
+                <controllingFieldValue>gg</controllingFieldValue>
+                <valueName>test6</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>bb</controllingFieldValue>
+                <controllingFieldValue>cc</controllingFieldValue>
+                <controllingFieldValue>gg</controllingFieldValue>
+                <valueName>Test1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>bb</controllingFieldValue>
+                <controllingFieldValue>cc</controllingFieldValue>
+                <controllingFieldValue>dd</controllingFieldValue>
+                <controllingFieldValue>ff</controllingFieldValue>
+                <valueName>test3</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>cc</controllingFieldValue>
+                <controllingFieldValue>ee</controllingFieldValue>
+                <controllingFieldValue>ff</controllingFieldValue>
+                <valueName>test5</valueName>
+            </valueSettings>
+        </valueSet>
     </fields>
     <fields>
         <fullName>PotentialLiability__c</fullName>
@@ -401,6 +541,217 @@
         </filters>
         <label>My Open Cases</label>
     </listViews>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>true</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>CaseRecordType</fullName>
+        <active>true</active>
+        <businessProcess>SupportProcess</businessProcess>
+        <label>CaseRecordType</label>
+        <picklistValues>
+            <picklist>CasePicklist2__c</picklist>
+            <values>
+                <fullName>aa</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>bb</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>cc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>dd</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ff</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>gg</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Origin</picklist>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Picklist1__c</picklist>
+            <values>
+                <fullName>Test0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>test3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>test4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>test5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>test6</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PotentialLiability__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Product__c</picklist>
+            <values>
+                <fullName>GC1020</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC1040</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC1060</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC3020</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC3040</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC3060</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC5020</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC5040</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GC5060</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason</picklist>
+            <values>
+                <fullName>Breakdown</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Equipment Complexity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Equipment Design</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Feedback</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Installation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Performance</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SLAViolation__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Electrical</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Electronic</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mechanical</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Structural</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>CASES.CASE_NUMBER</customTabListAdditionalFields>
         <customTabListAdditionalFields>CASES.SUBJECT</customTabListAdditionalFields>

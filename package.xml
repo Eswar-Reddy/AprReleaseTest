@@ -687,72 +687,11 @@
     </types>
     <types>
         <members>Account</members>
-        <members>AccountCleanInfo</members>
-        <members>AccountContactRole</members>
-        <members>Activity</members>
-        <members>Asset</members>
-        <members>AssetRelationship</members>
-        <members>AssistantProgress</members>
-        <members>AutoRABITAPP__c</members>
-        <members>Campaign</members>
-        <members>CampaignMember</members>
+        <members>ArObjB1__c</members>
         <members>Case</members>
-        <members>CaseContactRole</members>
-        <members>College__c</members>
-        <members>Contact</members>
-        <members>ContactCleanInfo</members>
-        <members>ContentVersion</members>
-        <members>Contract</members>
-        <members>ContractContactRole</members>
-        <members>DandBCompany</members>
-        <members>DuplicateRecordItem</members>
-        <members>DuplicateRecordSet</members>
-        <members>EmailMessage</members>
-        <members>Emp2__c</members>
-        <members>Emp__c</members>
-        <members>Event</members>
-        <members>ExObj1__x</members>
-        <members>ExObj2__x</members>
-        <members>ExchangeUserMapping</members>
-        <members>ExtObj3__x</members>
-        <members>FeedItem</members>
-        <members>ForecastingCategoryMapping</members>
-        <members>HistoryTestObj__c</members>
-        <members>Idea</members>
-        <members>InstallationObj__c</members>
-        <members>Lead</members>
-        <members>LeadCleanInfo</members>
-        <members>Macro</members>
-        <members>MacroAction</members>
-        <members>MacroInstruction</members>
-        <members>OBILLSwitchesObj__c</members>
-        <members>Opportunity</members>
-        <members>OpportunityCompetitor</members>
-        <members>OpportunityContactRole</members>
-        <members>OpportunityLineItem</members>
-        <members>Order</members>
-        <members>OrderItem</members>
-        <members>PartnerRole</members>
-        <members>Pass1__c</members>
-        <members>Pass2__c</members>
-        <members>Pass3__c</members>
-        <members>Pricebook2</members>
-        <members>PricebookEntry</members>
-        <members>Product2</members>
-        <members>QuickInfoObj__c</members>
-        <members>SObj1__c</members>
-        <members>Site</members>
-        <members>SocialPersona</members>
-        <members>Solution</members>
-        <members>StreamingChannel</members>
-        <members>Student__c</members>
-        <members>Task</members>
-        <members>Territory2</members>
-        <members>Territory2Model</members>
-        <members>User</members>
-        <members>UserProvisioningRequest</members>
-        <members>UserTerritory2Association</members>
-        <members>Visitor__c</members>
+        <members>Computer__c</members>
+        <members>MyObj1__c</members>
+        <members>TestObjecy__c</members>
         <name>CustomObject</name>
     </types>
     <types>
