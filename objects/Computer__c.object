@@ -56,25 +56,25 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
-        <fullName>ComputerManufacturar__c</fullName>
         <externalId>false</externalId>
+        <fullName>ComputerManufacturar__c</fullName>
         <label>ComputerManufacturar</label>
         <picklist>
             <picklistValues>
+                <default>false</default>
                 <fullName>Hp</fullName>
-                <default>false</default>
             </picklistValues>
             <picklistValues>
+                <default>false</default>
                 <fullName>Sony</fullName>
-                <default>false</default>
             </picklistValues>
             <picklistValues>
+                <default>false</default>
                 <fullName>Lenovo</fullName>
-                <default>false</default>
             </picklistValues>
             <picklistValues>
-                <fullName>IBM</fullName>
                 <default>false</default>
+                <fullName>IBM</fullName>
             </picklistValues>
             <sorted>false</sorted>
         </picklist>
@@ -82,10 +82,21 @@
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
     </fields>
+    <fields>
+        <externalId>false</externalId>
+        <fullName>ComputerPrice__c</fullName>
+        <label>ComputerPrice</label>
+        <precision>17</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
     <label>Computer</label>
     <listViews>
-        <fullName>All</fullName>
         <filterScope>Everything</filterScope>
+        <fullName>All</fullName>
         <label>All</label>
     </listViews>
     <nameField>
