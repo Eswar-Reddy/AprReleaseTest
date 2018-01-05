@@ -906,7 +906,6 @@
         <members>Best_Practice_Service_Dashboards/Service_Exec_Overview</members>
         <members>Best_Practice_Service_Dashboards/Service_KPIs</members>
         <members>Sales_Marketing_Dashboards</members>
-        <members>Sales_Marketing_Dashboards/Marketing_Executive_Dashboard</members>
         <members>Sales_Marketing_Dashboards/Sales_Executive_Dashboard</members>
         <members>Sales_Marketing_Dashboards/Sales_Manager_Dashboard</members>
         <members>Sales_Marketing_Dashboards/Salesperson_Dashboard</members>
@@ -922,7 +921,6 @@
         <members>Folder25</members>
         <members>Folder25/Image1.jpg</members>
         <members>Folder26</members>
-        <members>Folder26/DocTest132.jpg</members>
         <members>SalesTools</members>
         <members>TestYousuf</members>
         <members>TestYousufFix</members>
@@ -934,7 +932,6 @@
         <members>Account.AccountDuplicateRule1</members>
         <members>Account.AccountDuplicateRule2</members>
         <members>Account.AccountDuplicateRule3</members>
-        <members>Account.AccountDuplicateRule4</members>
         <members>Contact.Standard_Rule_for_Contacts_with_Duplicate_Leads</members>
         <members>Emp__c.Emp</members>
         <members>Emp__c.testr2</members>
@@ -975,7 +972,6 @@
         <name>EscalationRule</name>
     </types>
     <types>
-        <members>CrosDatasource1</members>
         <members>EswarDataSourceTest1</members>
         <members>ExtDataSource2</members>
         <name>ExternalDataSource</name>
@@ -1000,7 +996,6 @@
         <name>FlowDefinition</name>
     </types>
     <types>
-        <members>GlobalPickListTest1</members>
         <members>GlobalPickListTest2</members>
         <members>GlobalPickListTest3</members>
         <members>GlobalTestValueSet1</members>
@@ -1112,7 +1107,6 @@
         <members>Case.AllOpenCases</members>
         <members>Case.MyCases</members>
         <members>Case.MyOpenCases</members>
-        <members>College__c.All</members>
         <members>Contact.AllContacts</members>
         <members>Contact.BirthdaysThisMonth</members>
         <members>Contact.MyContacts</members>
@@ -1150,7 +1144,6 @@
         <members>Order.AllActivatedOrders</members>
         <members>Order.AllDraftOrders</members>
         <members>Order.AllOrders</members>
-        <members>Pass1__c.All</members>
         <members>Pass2__c.All</members>
         <members>Pass3__c.All</members>
         <members>Product2.AllProducts</members>
@@ -1416,7 +1409,6 @@
         <members>InstallationObj__c</members>
         <members>Lead</members>
         <members>OBILLSwitchesObj__c</members>
-        <members>OnlineSalesKeyObj2__c</members>
         <members>OnlineSalesKeyObj__c</members>
         <members>Opportunity</members>
         <members>Order</members>

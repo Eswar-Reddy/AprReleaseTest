@@ -286,11 +286,6 @@
         <visibleLines>4</visibleLines>
     </fields>
     <label>College</label>
-    <listViews>
-        <fullName>All</fullName>
-        <filterScope>Everything</filterScope>
-        <label>All</label>
-    </listViews>
     <nameField>
         <label>College Name</label>
         <type>Text</type>
