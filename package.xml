@@ -758,7 +758,6 @@
         <name>CustomField</name>
     </types>
     <types>
-        <members>Cls2</members>
         <members>Cls3</members>
         <members>CustomLabel1</members>
         <name>CustomLabel</name>
