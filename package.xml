@@ -266,15 +266,6 @@
         <members>Case.SuppliedPhone</members>
         <members>Case.Type</members>
         <members>CaseContactRole.Role</members>
-        <members>College__c.CollegeCourses__c</members>
-        <members>College__c.CollegeOpt2__c</members>
-        <members>College__c.CollegeOpt3__c</members>
-        <members>College__c.CollegeOpt4__c</members>
-        <members>College__c.CollegeOpt__c</members>
-        <members>College__c.CollegeP1__c</members>
-        <members>College__c.CollegeP2__c</members>
-        <members>College__c.CollegeP44__c</members>
-        <members>College__c.PicklistFieldMulti1__c</members>
         <members>Contact.AccountId</members>
         <members>Contact.AssistantName</members>
         <members>Contact.AssistantPhone</members>
@@ -634,9 +625,6 @@
         <members>OrderItem.TotalPrice</members>
         <members>OrderItem.UnitPrice</members>
         <members>PartnerRole.ReverseRole</members>
-        <members>Pass1__c.Pass1Mobile1__c</members>
-        <members>Pass1__c.info__c</members>
-        <members>Pass1__c.infotestarea__c</members>
         <members>Pass2__c.Pass2Mobile1__c</members>
         <members>Pass3__c.Pass3Info__c</members>
         <members>Pass3__c.Pass3Mobile1__c</members>
@@ -779,7 +767,6 @@
         <members>CampaignMember</members>
         <members>Case</members>
         <members>CaseContactRole</members>
-        <members>College__c</members>
         <members>Contact</members>
         <members>ContactCleanInfo</members>
         <members>ContentVersion</members>
@@ -820,7 +807,6 @@
         <members>Order</members>
         <members>OrderItem</members>
         <members>PartnerRole</members>
-        <members>Pass1__c</members>
         <members>Pass2__c</members>
         <members>Pass3__c</members>
         <members>Pricebook2</members>
@@ -906,7 +892,6 @@
         <members>Best_Practice_Service_Dashboards/Service_Exec_Overview</members>
         <members>Best_Practice_Service_Dashboards/Service_KPIs</members>
         <members>Sales_Marketing_Dashboards</members>
-        <members>Sales_Marketing_Dashboards/Sales_Executive_Dashboard</members>
         <members>Sales_Marketing_Dashboards/Sales_Manager_Dashboard</members>
         <members>Sales_Marketing_Dashboards/Salesperson_Dashboard</members>
         <name>Dashboard</name>
@@ -999,7 +984,6 @@
         <members>GlobalPickListTest2</members>
         <members>GlobalPickListTest3</members>
         <members>GlobalTestValueSet1</members>
-        <members>GlobalValuesetTest1</members>
         <name>GlobalValueSet</name>
     </types>
     <types>
