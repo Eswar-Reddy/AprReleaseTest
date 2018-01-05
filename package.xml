@@ -902,7 +902,6 @@
     </types>
     <types>
         <members>Best_Practice_Service_Dashboards</members>
-        <members>Best_Practice_Service_Dashboards/ARDashboard1</members>
         <members>Best_Practice_Service_Dashboards/Agent_Supervisor_Overview</members>
         <members>Best_Practice_Service_Dashboards/Service_Exec_Overview</members>
         <members>Best_Practice_Service_Dashboards/Service_KPIs</members>
