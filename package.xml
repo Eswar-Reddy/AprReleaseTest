@@ -875,7 +875,6 @@
     <types>
         <members>AutoRABITAPP__c</members>
         <members>College__c</members>
-        <members>Emp2__c</members>
         <members>Emp__c</members>
         <members>ExtObj3__x</members>
         <members>HistoryTestObj__c</members>
@@ -900,7 +899,6 @@
     </types>
     <types>
         <members>ABI</members>
-        <members>ABI/newtextdoc.txt</members>
         <members>ARardocuments1.png</members>
         <members>ARdocuments</members>
         <members>FirstBannerImages</members>
@@ -910,9 +908,9 @@
         <members>Folder26</members>
         <members>SalesTools</members>
         <members>TestYousuf</members>
-        <members>TestYousuf/TestDeployment.jpg</members>
         <members>TestYousufFix</members>
         <members>TestYousufFix/TestDeploymentFix.jpg</members>
+        <members>TestYousuf/TestDeployment.jpg</members>
         <name>Document</name>
     </types>
     <types>
@@ -983,7 +981,6 @@
         <name>FlowDefinition</name>
     </types>
     <types>
-        <members>GlobalPickListTest2</members>
         <members>GlobalPickListTest3</members>
         <members>GlobalTestValueSet1</members>
         <name>GlobalValueSet</name>
@@ -1168,7 +1165,6 @@
         <members>Chatter Free User</members>
         <members>Chatter Moderator User</members>
         <members>ContractManager</members>
-        <members>Controller%27s Profile</members>
         <members>Cross Org Data Proxy User</members>
         <members>Custom%3A Marketing Profile</members>
         <members>Custom%3A Sales Profile</members>
@@ -1377,7 +1373,6 @@
         <members>ARCustomSetting1ListSeetingObj__c</members>
         <members>Account</members>
         <members>Account_Profile_Setting__c</members>
-        <members>Account_Profile__c</members>
         <members>Asset</members>
         <members>AutoRABITAPP__c</members>
         <members>CSlabelacc1Obj__c</members>
