@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>37.0</version>
+    <version>40.0</version>
     <types>
         <members>ARApexclass2</members>
         <members>ARApexclass234</members>
@@ -25,6 +25,7 @@
         <members>Computer__c.ComputerManufacturar__c</members>
         <members>Computer__c.ComputerPrice__c</members>
         <members>MyObj1__c.MyObj1Id__c</members>
+        <members>TestObj__c.Offer__c</members>
         <name>CustomField</name>
     </types>
     <types>
@@ -41,6 +42,7 @@
         <members>ArObjB1__c</members>
         <members>Computer__c</members>
         <members>MyObj1__c</members>
+        <members>TestObj__c</members>
         <name>CustomObject</name>
     </types>
     <types>
@@ -58,6 +60,7 @@
     <types>
         <members>Computer__c-Computer Layout</members>
         <members>MyObj1__c-MyObj1 Layout</members>
+        <members>TestObj__c-TestObj7171 Layout</members>
         <name>Layout</name>
     </types>
     <types>
