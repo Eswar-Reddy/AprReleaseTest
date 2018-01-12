@@ -64,6 +64,17 @@
         <trackTrending>false</trackTrending>
         <type>TextArea</type>
     </fields>
+	<fields>
+        <externalId>false</externalId>
+        <fullName>ComputerPrice1__c</fullName>
+        <label>ComputerPrice1</label>
+        <precision>17</precision>
+        <required>true</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
     <label>AR-AccObj1</label>
     <nameField>
         <label>AR-AccObj1 Name</label>
