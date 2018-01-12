@@ -78,8 +78,8 @@
             </picklistValues>
             <sorted>false</sorted>
         </picklist>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
+        <trackHistory>true</trackHistory>
+        <trackTrending>true</trackTrending>
         <type>Picklist</type>
     </fields>
     <fields>
@@ -89,7 +89,29 @@
         <precision>17</precision>
         <required>false</required>
         <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>true</trackTrending>
+        <type>Currency</type>
+    </fields>
+	<fields>
+        <externalId>false</externalId>
+        <fullName>ComputerPrice1__c</fullName>
+        <label>ComputerPrice</label>
+        <precision>17</precision>
+        <required>false</required>
+        <scale>2</scale>
         <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+	<fields>
+        <externalId>false</externalId>
+        <fullName>ComputerPrice2__c</fullName>
+        <label>ComputerPrice</label>
+        <precision>17</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Currency</type>
     </fields>
