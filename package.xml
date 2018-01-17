@@ -25,6 +25,7 @@
         <members>Computer__c.ComputerManufacturar__c</members>
         <members>Computer__c.ComputerPrice__c</members>
         <members>MyObj1__c.MyObj1Id__c</members>
+        <members>Opportunity.TrackingNumber__c</members>
         <members>TestObj__c.Offer__c</members>
         <name>CustomField</name>
     </types>
@@ -60,6 +61,11 @@
     <types>
         <members>Computer__c-Computer Layout</members>
         <members>MyObj1__c-MyObj1 Layout</members>
+        <members>Opportunity-Opportunity %28Marketing%29 Layout</members>
+        <members>Opportunity-Opportunity %28Sales%29 Layout</members>
+        <members>Opportunity-Opportunity %28Support%29 Layout</members>
+        <members>Opportunity-Opportunity Layout</members>
+        <members>OpportunityLineItem-Opportunity Product Layout</members>
         <members>TestObj__c-TestObj7171 Layout</members>
         <name>Layout</name>
     </types>
