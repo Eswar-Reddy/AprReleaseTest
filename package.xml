@@ -22,8 +22,6 @@
         <members>AR_AccObj1__c.AccObj1Remarks__c</members>
         <members>ArObjB1__c.ArObjB1Desc__c</members>
         <members>ArObjB1__c.ArObjB1Phone__c</members>
-        <members>Computer__c.ComputerManufacturar__c</members>
-        <members>Computer__c.ComputerPrice__c</members>
         <members>MyObj1__c.MyObj1Id__c</members>
         <members>Opportunity.TrackingNumber__c</members>
         <members>TestObj__c.Offer__c</members>
