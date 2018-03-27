@@ -59,6 +59,10 @@
         <members>MyObj1__c</members>
         <members>TestNS21__c</members>
         <members>TestObjecy__c</members>
+        <members>Training1__c</members>
+        <members>Training2__c</members>
+        <members>UserProvisioningRequest</members>
+        <members>Vehicle__c</members>
         <members>Yousuf_Shareef__c</members>
         <name>CustomObject</name>
     </types>
